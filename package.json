@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/sirganya/local-design-tokens.git",
   "author": "Greg Kavanagh <greg@concretenoise.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
