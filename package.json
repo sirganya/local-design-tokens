@@ -1,0 +1,9 @@
+{
+  "name": "local-design-tokens",
+  "version": "1.0.0",
+  "description": "Design Tokens For Local* UI",
+  "main": "index.js",
+  "repository": "https://github.com/sirganya/local-design-tokens.git",
+  "author": "Greg Kavanagh <greg@concretenoise.com>",
+  "license": "MIT"
+}
