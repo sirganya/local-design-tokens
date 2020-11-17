@@ -1,13 +1,12 @@
 {
-  "name": "local-design-tokens",
+  "name": "@sirganya/local-design-token-pkg",
   "version": "1.0.1",
   "description": "Design Tokens For Local* UI",
   "main": "index.js",
-  "repository": "https://github.com/sirganya/local-design-tokens.git",
+  "repository": "git://github.com/sirganya/local-design-token-pkg.git",
   "author": "Greg Kavanagh <greg@concretenoise.com>",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  },
-  "repository": "git://github.com/sirganya/local-design-tokens.git"
+  }
 }
