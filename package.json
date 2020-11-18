@@ -1,9 +1,11 @@
 {
   "name": "@sirganya/local-design-token-pkg",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Design Tokens For Local* UI",
   "main": "index.js",
   "author": "Greg Kavanagh <greg@concretenoise.com>",
   "license": "MIT",
-  "scripts": {"publish": "npm publish"}
+  "scripts": {
+    "publish": "npm publish"
+  }
 }
