@@ -31,4 +31,5 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: curl -i -H "Authorization:token {{ secrets.DISPATCH}}" https://api.github.com/repos/sirganya/local-ui/dispatches -d '{"event_type":"release"}'
      
