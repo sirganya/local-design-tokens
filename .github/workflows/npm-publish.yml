@@ -28,9 +28,9 @@ jobs:
           node-version: 12
           registry-url: https://github.com/sirganya/local-design-token-pkg.git
       - run: npm ci
-      - run: npm version patch
       - run: git config --global user.email "greg@concretenoise.com"
       - run: git config --global user.name "Greg Kavanagh"
+      - run: npm version patch
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
