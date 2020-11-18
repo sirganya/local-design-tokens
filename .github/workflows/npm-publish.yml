@@ -15,10 +15,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - run: npm ci
         env:
           NPMRC_AUTH: ${{ secrets.NPMRC_AUTH }}
-      - run: npm ci
-      - run: npm test
 
   publish-gpr:
     needs: build
