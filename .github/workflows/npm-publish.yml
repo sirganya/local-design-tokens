@@ -29,14 +29,14 @@ jobs:
           registry-url: https://github.com/sirganya/local-design-token-pkg.git
       - run: npm ci
         env:
-          NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+          NPM_AUTH_TOKEN: ${{secrets.NPMRC_AUTH}}
       - run: git config --global user.email "greg@concretenoise.com"
       - run: git config --global user.name "Greg Kavanagh"
       - run: npm version patch
         env:
-          NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+          NPM_AUTH_TOKEN: ${{secrets.NPMRC_AUTH}}
       - run: npm publish
         env:
-          NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+          NPM_AUTH_TOKEN: ${{secrets.NPMRC_AUTH}}
       - run: curl -i -H "Authorization:token {{ secrets.DISPATCH}}" https://api.github.com/repos/sirganya/local-ui/dispatches -d '{"event_type":"release"}'
      
