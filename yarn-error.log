@@ -14,31 +14,26 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://npm.pkg.github.com/-/user/org.couchdb.user:sirganya: Error authenticating user: Bad credentials. The API can't be accessed using username/password authentication. Please create a personal access token to access this endpoint: http://github.com/settings/tokens
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:66987:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:140748:22)
-      at Request.emit (events.js:315:20)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141720:10)
-      at Request.emit (events.js:315:20)
-      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141642:12)
-      at Object.onceWrapper (events.js:421:28)
-      at IncomingMessage.emit (events.js:327:22)
-      at endReadableNT (_stream_readable.js:1224:12)
-      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:137008:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:873:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1140:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:302:12)
 
 npm manifest: 
   {
-    "name": "local-design-tokens",
-    "version": "1.0.1",
+    "name": "@sirganya/local-design-token-pkg",
+    "version": "1.0.7",
     "description": "Design Tokens For Local* UI",
     "main": "index.js",
-    "repository": "https://github.com/sirganya/local-design-tokens.git",
     "author": "Greg Kavanagh <greg@concretenoise.com>",
-    "license": "MIT",
-    "publishConfig": {
-      "registry": "https://npm.pkg.github.com/"
-    },
-    "repository": "git://github.com/sirganya/local-design-tokens.git"
+    "license": "MIT"
   }
 
 yarn manifest: 

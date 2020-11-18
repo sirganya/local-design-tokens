@@ -1,8 +1,7 @@
 export const colors = {
- utils-radius-0: 'hsla(34,100%,62.9%,1.000)',
- utils-radius-1: 'hsla(34,100%,62.9%,1.000)',
- utils-radius-2: 'hsla(34,100%,62.9%,1.000)',
- utils-radius-3: 'hsla(34,100%,62.9%,1.000)',
- utils-radius-100: 'hsla(34,100%,62.9%,1.000)',
- utils-radius-4: 'hsla(34,100%,62.9%,1.000)',
+ colorPrimary: 'hsla(34,100%,44.9%,1.000)',
+ colorSecondary: 'hsla(34,100%,53.9%,1.000)',
+ colorYellow300: 'hsla(34,100%,62.9%,1.000)',
+ colorYellow200: 'hsla(34,100%,72%,1.000)',
+ colorYellow100: 'hsla(34,100%,81%,0.494)',
 }
