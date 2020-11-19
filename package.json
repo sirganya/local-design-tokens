@@ -1,6 +1,6 @@
 {
   "name": "@sirganya/local-design-token-pkg",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "Design Tokens For Local* UI ",
   "main": "index.js",
   "author": "Greg Kavanagh <greg@concretenoise.com>",
