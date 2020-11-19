@@ -1,10 +1,10 @@
 export const spacing = {
- utilsSpace3Xl: '514px',
- utilsSpace2Xl: '514px',
- utilsSpaceXl: '514px',
- utilsSpaceL: '514px',
- utilsSpaceM: '514px',
- utilsSpaceS: '514px',
- utilsSpaceXs: '514px',
- utilsSpace2Xs: '514px',
+ utilsSpace3Xl: '4.5rem',
+ utilsSpace2Xl: '3rem',
+ utilsSpaceXl: '2.5rem',
+ utilsSpaceL: '2rem',
+ utilsSpaceM: '1.5rem',
+ utilsSpaceS: '1rem',
+ utilsSpaceXs: '0.5rem',
+ utilsSpace2Xs: '0.25rem',
 }
