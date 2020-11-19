@@ -6,6 +6,6 @@
   "author": "Greg Kavanagh <greg@concretenoise.com>",
   "license": "MIT",
   "scripts": {
-    "deploy": "git add . && git commit -a -m 'auto update' &&  git push"
+    "deploy": "git add . && git commit -a -m 'auto update' && npm version patch && git push"
   }
 }
