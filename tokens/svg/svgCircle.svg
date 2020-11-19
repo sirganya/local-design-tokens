@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="63px" height="65px" viewBox="0 0 63 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>svg/circle</title>
     <g id="design-tokens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="tokens" transform="translate(-34.000000, -1701.000000)" fill="#D8D8D8" stroke="#979797">
             <g id="SVG" transform="translate(35.000000, 1702.000000)">
-                <circle id="svg/circle" cx="30.5" cy="30.5" r="30.5"></circle>
+                <path d="M30.5,61 C25.623661,70.5 61,47.3446849 61,30.5 C61,13.6553151 47.3446849,0 30.5,0 C13.6553151,0 0,13.6553151 0,30.5 C0,47.3446849 35.376339,51.5 30.5,61 Z" id="svg/circle"></path>
             </g>
         </g>
     </g>
