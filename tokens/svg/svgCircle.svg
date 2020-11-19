@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>svg/circle</title>
+    <g id="design-tokens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tokens" transform="translate(-34.000000, -1701.000000)" fill="#D8D8D8" stroke="#979797">
+            <g id="SVG" transform="translate(35.000000, 1702.000000)">
+                <circle id="svg/circle" cx="30.5" cy="30.5" r="30.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

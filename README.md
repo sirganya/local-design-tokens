@@ -2,4 +2,3 @@
 
 Design tokens for Local* UI
 
-oh
