@@ -4,4 +4,4 @@ import { radii } from "./tokens/radii";
 import { spacing } from "./tokens/spacing";
 import { textStyles } from "./tokens/textstyles";
 
-export { colors, fontSize, radii, spacing, svg, textStyles };
+export { colors, fontSize, radii, spacing, textStyles };
